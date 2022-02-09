@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "test": "mocha tests/unit/index.test.js"
+        "test": "mocha tests/unit --recursive --exiting"
     },
     "author": "Mohannad Zidan",
     "license": "ISC",
