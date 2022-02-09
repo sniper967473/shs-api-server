@@ -1,0 +1,25 @@
+{
+    "name": "shs-api-server",
+    "version": "1.0.0",
+    "description": "API server of the smart home system",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha tests/unit/index.test.js"
+    },
+    "author": "Mohannad Zidan",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.17.2",
+        "express-validator": "^6.14.0",
+        "jsonwebtoken": "^8.5.1",
+        "pouchdb-node": "^7.2.2",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^9.2.0",
+        "supertest": "^6.2.2"
+    }
+}
